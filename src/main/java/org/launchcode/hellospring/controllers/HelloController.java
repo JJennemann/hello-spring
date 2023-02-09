@@ -15,7 +15,7 @@ public class HelloController {
 //        return "Hello, Spring!";
 //    }
 
-    // lives /hello/goodbye
+    // lives at /hello/goodbye
     @GetMapping("goodbye")
     public String goodbye(){
         return "Goodbye, Spring!";
